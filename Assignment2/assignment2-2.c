@@ -1,22 +1,24 @@
+// ì¸ê³µì§€ëŠ¥í•™ê³¼ 2021480004 ë°•ì¤€
+
 # include <stdio.h>
-# include "assignment2-2_header.h"  // ÇÔ¼öµéÀÌ ÀúÀåµÇ¾îÀÖ´Â Çì´õ include
+# include "assignment2-2_header.h"  // í•¨ìˆ˜ë“¤ì´ ì €ì¥ë˜ì–´ìˆëŠ” í—¤ë” include
 
 int main(void) {
 	int a, b;
 	int i = 1;
 	
-	printf("Ã¹¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &a);
-	printf("µÎ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &b);
 
-	// parameter »ç¿ë
+	// parameter ì‚¬ìš©
 	LSM(a, b);
 	GCM(a, b);
 	is_prime(a);
 	is_prime(b);
 
-	// scanf·Î Á÷Á¢ ÀÔ·Â
+	// scanfë¡œ ì§ì ‘ ì…ë ¥
 	scan_LSM();
 	scan_GCM();
 	scan_is_prime();
